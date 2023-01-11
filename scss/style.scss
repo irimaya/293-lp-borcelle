@@ -10,7 +10,6 @@ $font-stack: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 }
 
-// Main Styling
 html,
 body {
 	font-family: $font-stack;
@@ -35,13 +34,13 @@ h4 {
 	font-size: 1.5rem;
 }
 
-h1 span {
-	font-weight: 300;
-}
-
 h1,
 h2 {
 	text-transform: uppercase;
+}
+
+h1 span {
+	font-weight: 300;
 }
 
 p {
@@ -69,10 +68,10 @@ p {
 	font-weight: bold;
 	letter-spacing: 1px;
 	border-radius: 20px;
+	background: $primary-color;
 	color: #fff;
 	border: none;
-	background: $primary-color;
-} //End .btn
+}
 
 form {
 	label {
@@ -86,24 +85,22 @@ form {
 		display: block;
 		width: 100%;
 		padding: 7px 12px;
-		line-height: 1.5;
-		font-size: 1rem;
-		background-color: #fff;
+		background: #fff;
 		border: 1px solid #000;
 		border-top: none;
 		border-left: none;
 		border-right: none;
 	}
-} //End form
+} // End form
 
 // Nav
 #navbar {
 	padding-top: 80px;
-} //End #navbar
+}
 
 // Showcase
 #showcase {
-	padding: 50px;
+	padding: 50px 0;
 	.container {
 		display: flex;
 		.showcase-text {
@@ -119,17 +116,17 @@ form {
 			background: #fff;
 			color: #000;
 			border-radius: 20px;
-			h4 {
-				text-align: center;
-				padding-top: 70px;
-			}
-			form {
-				padding: 50px 60px;
-			}
-			button {
-				width: 100%;
-				margin-top: 20px;
-			}
+		}
+		h4 {
+			text-align: center;
+			padding-top: 70px;
+		}
+		form {
+			padding: 50px 60px;
+		}
+		button {
+			width: 100%;
+			margin-top: 20px;
 		}
 	}
 } //End #showcase

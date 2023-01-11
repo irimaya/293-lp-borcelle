@@ -9,6 +9,9 @@ html,
 body {
   font-family: "Montserrat", sans-serif;
   background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #fff;
 }
 
@@ -26,13 +29,13 @@ h4 {
   font-size: 1.5rem;
 }
 
-h1 span {
-  font-weight: 300;
-}
-
 h1,
 h2 {
   text-transform: uppercase;
+}
+
+h1 span {
+  font-weight: 300;
 }
 
 p {
@@ -59,9 +62,9 @@ p {
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 20px;
+  background: #015ccf;
   color: #fff;
   border: none;
-  background: #015ccf;
 }
 
 form label {
@@ -75,9 +78,7 @@ form .form-control {
   display: block;
   width: 100%;
   padding: 7px 12px;
-  line-height: 1.5;
-  font-size: 1rem;
-  background-color: #fff;
+  background: #fff;
   border: 1px solid #000;
   border-top: none;
   border-left: none;
@@ -89,7 +90,7 @@ form .form-control {
 }
 
 #showcase {
-  padding: 50px;
+  padding: 50px 0;
 }
 #showcase .container {
   display: flex;
@@ -108,14 +109,14 @@ form .form-control {
   color: #000;
   border-radius: 20px;
 }
-#showcase .container .showcase-form h4 {
+#showcase .container h4 {
   text-align: center;
   padding-top: 70px;
 }
-#showcase .container .showcase-form form {
+#showcase .container form {
   padding: 50px 60px;
 }
-#showcase .container .showcase-form button {
+#showcase .container button {
   width: 100%;
   margin-top: 20px;
 }
@@ -142,10 +143,7 @@ form .form-control {
   }
   #showcase .container .showcase-text h1,
   #showcase .container .showcase-text p {
-    padding-right: 0px;
-  }
-  #showcase .container .showcase-text .small {
-    padding-bottom: 20px;
+    padding-right: 0;
   }
 }
 
